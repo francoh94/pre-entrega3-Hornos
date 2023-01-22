@@ -26,7 +26,7 @@ header{
   background-color: #2b4257
 }
 .inicio{
-  background-image: url(./img/fondo.jpg);
+  background-image: url("./img/fondo.jpg");
 }
 .navbar {
   align-items: flex-end;
