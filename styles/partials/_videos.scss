@@ -1,0 +1,14 @@
+.cajav{
+    padding-inline: 20px;
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(211,215,218,1) 12%, rgba(43,67,87,1) 75%);  
+
+    .videos {
+        margin-bottom: 40px;
+    }
+    .videos:hover {
+        scale: 1.005;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+        rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    }
+    }
