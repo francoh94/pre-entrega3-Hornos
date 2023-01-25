@@ -9,6 +9,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 header {
   background-color: #2b4257;
 }
@@ -24,7 +28,7 @@ header .navbar .nav-item:hover {
 }
 
 .inicio {
-  background-image: url("../img/fondo.jpg");
+  background-image: url("../../img/fondo.jpg");
 }
 
 h1 {
