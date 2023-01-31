@@ -42,7 +42,21 @@
 </header>
 <main>
 <div class="container">
-    <form method="post" name="contact" netlify>
+    <form name="contact" method="POST" data-netlify="true">
+        <p>
+          <label>Nombre: <input type="text" name="name" /></label>
+        </p>
+        <p>
+          <label>Email: <input type="email" name="email" /></label>
+        </p>
+        <p>
+          <label>Consulta: <textarea name="message"></textarea></label>
+        </p>
+        <p>
+          <button type="submit">enviar</button>
+        </p>
+      </form>
+    <!--<form >
     <div class="row">
     <div class="col-25">
         <strong><label for="nombre">Nombre:</label></strong>
@@ -70,7 +84,7 @@
     <div class="row boton">
     <input  type="submit" value="enviar">
     </div>
-    </form>
+    </form>-->
     </div>
 </main>
 <footer>

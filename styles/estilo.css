@@ -240,7 +240,7 @@ footer .subir i:hover {
   border-radius: 4px;
   cursor: pointer;
 }
-.container .boton input[type=submit]:hover {
+.container .button input[type=submit]:hover {
   background-color: #2b4257;
 }
 .container .row:after {
@@ -274,10 +274,7 @@ footer .subir i:hover {
   }
 }
 @media screen and (min-width: 1200px) {
-  .carousel-inner {
-    padding: 100px;
-    height: 100vh;
-  }
+
   .rutinas-items {
     height: 400px;
   }
@@ -285,6 +282,10 @@ footer .subir i:hover {
 @media screen and (min-width: 992px) {
   h1 {
     font-size: 1000%;
+  }
+  .carousel-inner {
+    padding: 100px;
+    height: 100vh;
   }
 }
 @media screen and (max-width: 992px) {
