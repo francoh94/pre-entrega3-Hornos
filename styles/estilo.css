@@ -240,7 +240,7 @@ footer .subir i:hover {
   border-radius: 4px;
   cursor: pointer;
 }
-.container .button input[type=submit]:hover {
+.container .boton input[type=submit]:hover {
   background-color: #2b4257;
 }
 .container .row:after {
